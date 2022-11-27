@@ -6,7 +6,7 @@ Minsk, Belarus
 ### Contacts ###
 ---
 
- - ![Email](./src/logo_email.png)  [p.zabavskiy@tut.by](mailto:p.zabavsky@mail.ru)
+ - ![Email](./src/logo_email.png)  [p.zabavsky@mail.ru](mailto:p.zabavsky@mail.ru)
  - ![GitHub](./src/social_github.svg) [GitHub](https://github.com/TikkiTakki)  
  - ![LinkedIn](./src/social_linkedin.svg) [LinkedIn](https://www.linkedin.com/in/павел-забавский-1b2585141)
  - ![Facebook](./src/social_facebook.svg) [Facebook](https://www.facebook.com/PavelZabavskiy)
