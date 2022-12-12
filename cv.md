@@ -1,16 +1,16 @@
 ## Pavel Zabavskiy
-Minsk, Belarus 
+Minsk, Belarus
 
 
 
 ### Contacts ###
 ---
 
- - ![Email](./src/logo_email.png)  [p.zabavsky@mail.ru](mailto:p.zabavsky@mail.ru)
- - ![GitHub](./src/social_github.svg) [GitHub](https://github.com/TikkiTakki)  
- - ![LinkedIn](./src/social_linkedin.svg) [LinkedIn](https://www.linkedin.com/in/павел-забавский-1b2585141)
- - ![Facebook](./src/social_facebook.svg) [Facebook](https://www.facebook.com/PavelZabavskiy)
-   
+ - ![Email](./src/cv/logo_email.png)  [p.zabavsky@mail.ru](mailto:p.zabavsky@mail.ru)
+ - ![GitHub](./src/cv/social_github.svg) [GitHub](https://github.com/TikkiTakki)
+ - ![LinkedIn](./src/cv/social_linkedin.svg) [LinkedIn](https://www.linkedin.com/in/павел-забавский-1b2585141)
+ - ![Facebook](./src/cv/social_facebook.svg) [Facebook](https://www.facebook.com/PavelZabavskiy)
+
 
 
 ### Objective&Summary ###
@@ -21,7 +21,7 @@ Minsk, Belarus
 
 Start a career as a junior Web developer in the company and grow to team lead.
 
- 
+
 #### Summary: ####
 
 
@@ -74,7 +74,7 @@ The main experience of development based on online courses and resources to impr
  - Coursera;
  - Geekbrains;
  - Openedu;
- - Gavarush;
+ - Javarush;
  - Exercism;
  - Codeforces;
  - EdX;
@@ -92,7 +92,7 @@ The main experience of development based on online courses and resources to impr
  - **Specialty:** *Economics and enterprise management*;
  - **Specialization:** *Economics and legal support of economic*.
 
- 
+
 
 All the knowledge gained by studying books on programming. Constantly practice on online services such as Stepic, EdX, Openedu.
 
@@ -102,7 +102,7 @@ All the knowledge gained by studying books on programming. Constantly practice o
   - [JavaScript](https://stepik.org/cert/84404);
   - [Git](https://stepik.org/cert/92146);
   - [Python](https://stepik.org/cert/101618);
-  - [HTML/CSS](https://stepik.org/cert/106543).  
+  - [HTML/CSS](https://stepik.org/cert/106543).
 
 ### Additional information ###
 ---
