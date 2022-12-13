@@ -83,6 +83,9 @@ h1 {
   padding: 30px 0 0 20px;
 }
 .image_block > p {
+  font-weight: 400;
+  font-size: 2.2rem;
+  line-height: 2.2rem;
   color: #e1d767;
   text-shadow: rgba(191, 209, 219, 0.7) 0.1em 0.1em 0.2em;
   margin: 0;
