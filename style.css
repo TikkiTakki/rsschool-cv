@@ -1,0 +1,238 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap");
+.navigation_item:hover {
+  transition: all 0.3s ease-out;
+}
+
+.content_education, body {
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.link {
+  font-family: "Zen Dots", cursive;
+}
+
+.language_skill, .section__header {
+  font-family: "Roboto Mono", monospace;
+}
+
+html {
+  font-size: 10px;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 1.6rem;
+  background-image: url("src/svg/bg.svg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  line-height: 3rem;
+  margin: 0;
+  padding-top: 120px;
+}
+
+.wrapper {
+  display: flex;
+  max-width: 1100px;
+  margin: auto;
+  padding: auto;
+}
+
+.content_wrapper {
+  width: 80%;
+  padding: auto;
+  margin: auto;
+}
+
+.footer_wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sidebar {
+  background-color: rgba(5, 30, 43, 0.8);
+  width: 30%;
+}
+
+.header {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+}
+.header_title {
+  color: rgba(191, 209, 219, 0.7);
+  text-shadow: 0 0 0.2em rgba(191, 209, 219, 0.7), 0 0 0.2em rgba(5, 30, 43, 0.8), 0 0 0.2em rgba(232, 231, 40, 0.6);
+}
+
+.image_block {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  justify-content: space-between;
+  padding: 30px 0 0 20px;
+}
+.image_block > p {
+  font-weight: 400;
+  font-size: 2.2rem;
+  line-height: 2.2rem;
+  color: #e1d767;
+  text-shadow: rgba(191, 209, 219, 0.7) 0.1em 0.1em 0.2em;
+  margin: 0;
+  padding-top: 10px;
+}
+.image_block > img {
+  position: absolute;
+  top: 60px;
+  right: -50px;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  box-shadow: 0 5px 30px 0 rgba(255, 251, 7, 0.2);
+}
+
+.contacts {
+  margin: 0;
+  background: rgba(232, 231, 40, 0.6);
+  padding: 20px;
+}
+
+.link {
+  list-style: none;
+  padding-bottom: 40px;
+}
+.link:first-child {
+  padding-top: 40px;
+}
+
+.navigation_item {
+  text-decoration: none;
+  color: #30cfd0;
+  cursor: pointer;
+}
+.navigation_item:hover {
+  color: #e1d767;
+}
+
+.container {
+  width: 70%;
+  background: rgba(191, 209, 219, 0.7);
+  color: #192127;
+}
+
+.main {
+  width: 100%;
+  padding: 40px 0;
+}
+
+.section__header {
+  color: rgba(191, 209, 219, 0.7);
+  text-shadow: rgba(5, 30, 43, 0.8) 0.1em 0.1em 0.2em;
+  padding: 20px 0;
+  margin: 0;
+  box-shadow: rgba(232, 231, 40, 0.6) 0px 2px 0px 0px;
+}
+
+.content {
+  word-spacing: 1rem;
+  line-height: 2rem;
+  word-break: break-word;
+  padding-left: 100px;
+  padding-right: 50px;
+}
+.content_education {
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 1.6rem;
+  color: rgba(5, 30, 43, 0.8);
+}
+
+.ellipse {
+  display: inline-block;
+  height: 8px;
+  width: 8px;
+  background-color: #e1d767;
+  border: 1px solid #30cfd0;
+  border-radius: 50%;
+}
+
+.location {
+  font-weight: 400;
+  font-size: 1.2rem;
+  line-height: 1.2rem;
+}
+
+.courses {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 0 50px 0 100px;
+}
+.courses > li {
+  list-style: none;
+  color: rgba(5, 30, 43, 0.8);
+  text-shadow: rgba(5, 30, 43, 0.8) 0.4em 0.6em 0.4em;
+}
+
+.language_skill {
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 1.4rem;
+  color: rgba(5, 30, 43, 0.8);
+  text-shadow: rgba(5, 30, 43, 0.8) 0.2em 0.3em 0.4em;
+}
+
+.skill {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding: 40px 50px 0 100px;
+}
+.skill > li {
+  list-style: none;
+}
+.skill > li > img {
+  width: 40px;
+  height: 40px;
+}
+
+.content_code {
+  line-height: 2rem;
+  padding-left: 100px;
+}
+
+.color-code-func {
+  color: #0000ff;
+}
+
+.color-code-return {
+  color: #8854d0;
+}
+
+.color-code-name {
+  color: #c5510e;
+}
+
+.footer {
+  width: 100%;
+  background: rgba(232, 231, 40, 0.6);
+  margin: 0;
+  padding: 10px 0;
+}
+
+.rss__logo {
+  width: 80px;
+}
+
+/*# sourceMappingURL=style.css.map */

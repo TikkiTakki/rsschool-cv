@@ -1,0 +1,11 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "https://TikkiTakki.github.io/rsschool-cv/cv",
+  "main": "index.js",
+  "scripts": {
+    "style": "sass --watch src/sass/style.scss style.css"
+  },
+  "author": "Asmodei",
+  "license": "ISC"
+}
