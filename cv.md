@@ -56,6 +56,7 @@ function cachingDecorator(func) {
     let result = (func);
 
     cache.set(x, result);
+    
     return result;
   };
 }
