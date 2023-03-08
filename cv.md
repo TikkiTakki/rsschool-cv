@@ -16,7 +16,6 @@ Minsk, Belarus
 ### Objective&Summary ###
 ---
 
-
 #### Objective: ####
 
 Start a career as a junior Web developer in the company and grow to team lead.
@@ -102,10 +101,12 @@ All the knowledge gained by studying books on programming. Constantly practice o
   - [JavaScript](https://stepik.org/cert/84404);
   - [Git](https://stepik.org/cert/92146);
   - [Python](https://stepik.org/cert/101618);
-  - [HTML/CSS](https://stepik.org/cert/106543).
+  - [HTML/CSS](https://stepik.org/cert/106543);
 
 ### Additional information ###
 ---
+
+ - [JS/FE Pre-School 2022Q4](https://app.rs.school/certificate/iyrgwmhe);
 
 
 #### Language Skills: ####
