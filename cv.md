@@ -69,8 +69,6 @@ function cachingDecorator(func) {
 
 The main experience of development based on online courses and resources to improve the level of knowledge such as:
 
-
-
  - Coursera;
  - Geekbrains;
  - Openedu;
