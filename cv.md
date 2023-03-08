@@ -82,6 +82,7 @@ The main experience of development based on online courses and resources to impr
 ### Education ###
 ---
 
+ - JS/FE Pre-School 2022Q4;
 
 #### Profile education: ####
 
