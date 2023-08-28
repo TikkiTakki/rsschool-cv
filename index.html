@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <aside class="sidebar">
+            <header class="header">
+                <div class="image_block">
+                    <p>Hi there, I'm</p>
+                    <img src="src/photo.jpg" alt="photo">
+                    <h1 class="header_title">Pavel<br>Zabavskiy</h1>
+                    <p>Front-end web developer</p>
+                </div>
+                <ul class="contacts">
+                    <li class="link"><a href="mailto:p.zabavsky@mail.ru"><img src="src/svg/mail.svg" alt="mail"></a></li>
+                    <li class="link"><a href="https://www.linkedin.com/in/павел-забавский-1b2585141"><img src="src/svg/linkendIn.svg" alt="linkedIn"></a></li>
+                    <li class="link"><a href="https://www.facebook.com/PavelZabavskiy"><img src="src/svg/facebook.svg" alt="facebook"></a></li>
+                </ul>
+            </header>
+            <nav class="navigation__bar">
+                <ul>
+                    <li class="link"><a class="navigation_item" href="#summary">Summary</a></li>
+                    <li class="link"><a class="navigation_item" href="#skills">Skills</a></li>
+                    <li class="link"><a class="navigation_item" href="#projects">My Projects</a></li>
+                    <li class="link"><a class="navigation_item" href="#code">Code example</a></li>
+                    <li class="link"><a class="navigation_item" href="#education">Education</a></li>
+                    <li class="link"><a class="navigation_item" href="#additional">Languages</a></li>
+                 </ul>
+            </nav>
+        </aside>
+        <div class="container">
+                <main class="main">
+                    <div class="content_wrapper">
+                        <section id="summary">
+                            <h2 class="section__header">Summary</h2>
+                            <p class="content">Several years studying the technology of web development using <strong>Javascript/HTML/CSS/Python</strong>. I am engaged in self-education and raising the level of knowledge. Have experience programming in <strong>C/C++</strong>, <strong>PHP</strong>, <strong>SQL</strong> and experience in the graphics package <strong>Photoshop</strong>. Good memory and analytical skills. I'm a good team player.</p>
+                        </section>
+                        <section id="skills">
+                            <h2 class="section__header">Skills </h2>
+                            <ul class="skill">
+                                <li><img src="src/svg/skills/html.svg" alt="html"></li>
+                                <li><img src="src/svg/skills/css.svg" alt="css"></li>
+                                <li><img src="src/svg/skills/sass.svg" alt="sass"></li>
+                                <li><img src="src/svg/skills/figma.svg" alt="figma"></li>
+                                <li><img src="src/svg/skills/git.svg" alt="git"></li>
+                                <li><img src="src/svg/skills/VScode.svg" alt="VScode"></li>
+                                <li><img src="src/svg/skills/webpack.svg" alt="Webpack"></li>
+                                <li><img src="src/svg/skills/js.svg" alt="js"></li>
+                                <li><img src="src/svg/skills/bash.svg" alt="bash"></li>
+                                <li><img src="src/svg/skills/c.svg" alt="C"></li>
+                                <li><img src="src/svg/skills/python.svg" alt="python"></li>
+                                <li><img src="src/svg/skills/linux.svg" alt="linux"></li>
+                                <li><img src="src/svg/skills/regex.svg" alt="regex"></li>
+                                <li><img src="src/svg/skills/RaspberryPi.svg" alt="RaspberryPi"></li>
+                            </ul>
+                        </section>
+                        <section id="projects">
+                            <h2 class="section__header">My projects</h2>
+                            <ul class="project">
+                                <li><a class="project_item" href="https://rolling-scopes-school.github.io/tikkitakki-JSFEPRESCHOOL2022Q4/momentum/">Momentum</a></li>
+                                <li><a class="project_item" href="https://rolling-scopes-school.github.io/tikkitakki-JSFEPRESCHOOL2022Q4/plants/">Plants</a></li>
+                            </ul>
+
+                        </section>
+                        <section id="code">
+                            <h2 class="section__header">Code example</h2>
+                            <pre class="content_code">
+                                <code>
+<span class="color-code-func">function</span> <span class="color-code-name">cachingDecorator</span>(func) {
+    <span class="color-code-func">let</span> <span class="color-code-name">cache</span> = <span class="color-code-func"> new</span> <span class="color-code-name">Map</span>();
+    <span class="color-code-return">return</span> <span class="color-code-func">function</span>(x) {
+        if (cache.has(x)) {
+            <span class="color-code-return">return</span> cache.get(x);
+        };
+
+        <span class="color-code-func">let</span> <span class="color-code-name">result</span> = (func);
+
+        cache.set(x, result);
+        <span class="color-code-return">return</span> result;
+    };
+};
+                                </code>
+                            </pre>
+                        </section>
+                        <section id="education">
+                            <h2 class="section__header">Education</h2>
+                            <h3><span class="ellipse"></span> University:</h3>
+                            <p class="content content_education"><strong>Institute of Management and Entrepreneurship<br></strong><span class="location">Minsk, Belarus</span></p>
+                            <p class="content content_education">2004-2010</p>
+                            <p class="content content_education">Economics and enterprise management</p>
+                            <h3><span class="ellipse"></span> Сourses:</h3>
+                            <ul class="courses">
+                                <li>HTML and CSS Tutorials on w3schools</li>
+                                <li>JavaScript Manual on learnjavascript.ru</li>
+                                <li>CS50 lectures</li>
+                                <li>HTML Academy</li>
+                                <li>Javarush</li>
+                                <li>Openedu</li>
+                                <li>Stepik</li>
+                            </ul>
+                        </section>
+                        <section id="additional">
+                            <h2 class="section__header">Languages</h2>
+                            <h3><span class="ellipse"></span> Russian <span class="language_skill">[Native]</span></h3>
+                            <p></p>
+                            <h3><span class="ellipse"></span> English <span class="language_skill">[Pre-Intermediate]</span></h3>
+                        </section>
+                    </div>
+                </main>
+                <footer class="footer">
+                    <div class="content_wrapper footer_wrapper">
+                        <span><strong>&copy; 2023</strong></span>
+                        <a href="https://github.com/TikkiTakki/">
+                            <img src="src/svg/git.svg" alt="my giihub">
+                        </a>
+                        <a href="https://rs.school/js/">
+                            <img  class="rss__logo" src="./src/svg/rs_school.svg" alt="rs_school">
+                        </a>
+                    </div>
+                </footer>
+            </div>
+        </div>
+  </body>
+</html>

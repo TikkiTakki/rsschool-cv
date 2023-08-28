@@ -1,0 +1,82 @@
+.container {
+    width: 70%;
+    background: $color-background-main;
+    color: $color-text;
+}
+
+.main {
+    width: 100%;
+    padding: 40px 0;
+
+}
+
+.section__header {
+    @extend %font-add;
+    color: $color-background-main;
+    text-shadow: $color-background-sidebar 0.1em 0.1em 0.2em;
+    padding: 20px 0;
+    margin: 0;
+    box-shadow: $color-background-social 0px 2px 0px 0px;
+}
+
+.content{
+    word-spacing: 1rem;
+    line-height: 2rem;
+    word-break: break-word;
+    padding-left: 100px;
+    padding-right: 50px;
+    &_education{
+        @extend %font-prim;
+        @include font($size: 1.6rem);  
+        color: $color-background-sidebar;
+    }
+}
+
+.ellipse{
+    display: inline-block;
+    height: 8px;
+    width: 8px;    
+    background-color: $color-hovered;
+    border: 1px solid $color-navigation;
+    border-radius: 50%;    
+
+}
+
+.location {    
+    @include font($size: 1.2rem);    
+}
+
+.project {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 0 50px 0 100px;
+    > li {
+        list-style: none;        
+    }
+    &_item{
+        text-decoration: none; 
+        color: $color-background-sidebar;
+        text-shadow: $color-background-sidebar 0.4em 0.6em 0.4em; 
+    }
+}
+
+.courses {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 0 50px 0 100px;
+    > li {
+       list-style: none;
+       color: $color-background-sidebar;
+       text-shadow: $color-background-sidebar 0.4em 0.6em 0.4em;
+    }
+}
+
+.language_skill {    
+    @extend %font-add;
+    @include font($size: 1.4rem);
+    color: $color-background-sidebar;
+    text-shadow: $color-background-sidebar 0.2em 0.3em 0.4em;
+}
+
