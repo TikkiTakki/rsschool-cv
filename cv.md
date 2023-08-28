@@ -36,7 +36,7 @@ Several years studying the technology of web development using Javascript/HTML/C
  - **Layout:** HTML5/CSS3;
  - **Language:** C/C++, JavaScript, Python;
  - **Database:** MySQL, MariaDB;
- - **CLI:** cmd, bash.
+ - **CLI:** cmd, bash;
 
 
 ### Code examples ###
@@ -56,6 +56,7 @@ function cachingDecorator(func) {
     let result = (func);
 
     cache.set(x, result);
+
     return result;
   };
 }
@@ -67,8 +68,6 @@ function cachingDecorator(func) {
 
 
 The main experience of development based on online courses and resources to improve the level of knowledge such as:
-
-
 
  - Coursera;
  - Geekbrains;

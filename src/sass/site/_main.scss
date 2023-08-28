@@ -46,6 +46,21 @@
     @include font($size: 1.2rem);    
 }
 
+.project {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 0 50px 0 100px;
+    > li {
+        list-style: none;        
+    }
+    &_item{
+        text-decoration: none; 
+        color: $color-background-sidebar;
+        text-shadow: $color-background-sidebar 0.4em 0.6em 0.4em; 
+    }
+}
+
 .courses {
     display: flex;
     flex-direction: column;
